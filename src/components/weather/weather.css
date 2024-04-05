@@ -1,0 +1,63 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light gray background for the entire page */
+}
+h1 {
+  color: gray;
+}
+.searchBarContainer {
+  width: 300px;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background for the weather information */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+}
+
+.weather-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333; /* Dark gray text color */
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #555555; /* Medium gray text color */
+}
+
+.search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue button background color */
+  color: #ffffff; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.clearIcon {
+  cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
